@@ -1,10 +1,10 @@
 'use client';
 import React, { useState } from 'react';
 import { CiSearch } from 'react-icons/ci';
-import { IoCartOutline } from 'react-icons/io5';
-import { IoIosContact } from 'react-icons/io';
-import { IoMenu, IoClose } from 'react-icons/io5';
-import Link from 'next/link';
+// import { IoCartOutline } from 'react-icons/io5';
+// import { IoIosContact } from 'react-icons/io';
+// import { IoMenu, IoClose } from 'react-icons/io5';
+// import Link from 'next/link';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,12 +28,12 @@ const Navbar = () => {
         </h1>
 
         {/* Cart and Contact Icons for Large Screens */}
-        <div className="sm:hidden md:flex gap-4">
+        {/* <div className="sm:hidden md:flex gap-4">
           <Link href="/Cart">
             <IoCartOutline size={25} />
           </Link>
           <IoIosContact size={25} />
-        </div>
+        </div> */}
 
         {/* Hamburger Menu for Mobile */}
         <div className="flex items-center gap-4 md:hidden">
@@ -42,7 +42,7 @@ const Navbar = () => {
             className="text-2xl focus:outline-none z-30"
             onClick={toggleMenu}
           >
-            {!menuOpen ? <IoMenu /> : <IoClose />}
+            {/* {!menuOpen ? <IoMenu /> : <IoClose />} */}
           </button>
         </div>
       </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
               className="text-2xl focus:outline-none"
               onClick={toggleMenu}
             >
-              <IoClose />
+              {/* <IoClose /> */}
             </button>
           </div>
         )}
