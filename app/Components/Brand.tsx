@@ -1,5 +1,5 @@
 import React from 'react';
-import { TbTruckDelivery } from "react-icons/tb";
+// import { TbTruckDelivery } from "react-icons/tb";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 import { LuSprout } from "react-icons/lu";
 import { MdOutlinePriceChange } from "react-icons/md";
@@ -18,7 +18,7 @@ const Brand = () => {
           <div className="flex flex-col md:flex-row gap-8 mt-12 text-base md:text-lg">
             {/* Feature 1 */}
             <div className="flex flex-col   md:w-[25%] p-4  rounded-lg">
-              <TbTruckDelivery size={30}  />
+{/*               <TbTruckDelivery size={30}  /> */}
               <p className="py-4 font-semibold">Next day as standard</p>
               <p>Order before 3pm and get your order the next day as standard.</p>
             </div>
