@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { CiSearch } from 'react-icons/ci';
+// import { CiSearch } from 'react-icons/ci';
 // import { IoCartOutline } from 'react-icons/io5';
 // import { IoIosContact } from 'react-icons/io';
 // import { IoMenu, IoClose } from 'react-icons/io5';
@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center py-2">
         {/* Search Icon for Large Screens (Tablet and above) */}
         <div className="sm:hidden md:block">
-          <CiSearch size={25} />
+{/*           <CiSearch size={25} /> */}
         </div>
 
         {/* Logo */}
