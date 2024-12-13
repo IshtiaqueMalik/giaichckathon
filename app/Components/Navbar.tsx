@@ -36,15 +36,15 @@ const Navbar = () => {
         </div> */}
 
         {/* Hamburger Menu for Mobile */}
-        <div className="flex items-center gap-4 md:hidden">
+        {/* <div className="flex items-center gap-4 md:hidden">
           <CiSearch size={25} />
           <button
             className="text-2xl focus:outline-none z-30"
             onClick={toggleMenu}
-          >
+          > */}
             {/* {!menuOpen ? <IoMenu /> : <IoClose />} */}
-          </button>
-        </div>
+          {/* </button>
+        </div> */}
       </div>
 
       <hr />
